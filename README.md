@@ -66,7 +66,8 @@
 ## 📁 7. 리포지토리 디렉토리 구조
 ```text
 ├── README.md                      # 프로젝트 개요 및 마케팅 전략 요약
-├── requirements.txt               # 필수 라이브러리 목록
+├── data/               
+│   └── customer_data.csv          # 프로젝트에 사용된 데이터셋
 │
 ├── notebooks/                     # 분석 단계별 주피터 노트북
 │   ├── 01_data_preprocessing.ipynb          # 데이터 정제 및 이상치 처리
